@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KHan | Contact Me</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/phone.css" media="screen and (max-width: 599px)">
+  <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 600px) and (max-width: 1023px)">
+  <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">KHan 🍂</a>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p>Questions, ideas or just want to connect? Send me a message.</p>
+      </div>
+    </section>
+
+    <section class="container">
+      <form action="thanks.html" method="get" class="contact-form">
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required minlength="2">
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Cell No. (like 289-555-1234)</label>
+        <input type="tel" id="phone" name="phone" required
+               pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}"
+               title="10 digit number, like 289-555-1234">
+
+        <label for="message">Comments</label>
+        <textarea id="message" name="message" rows="6" required minlength="10"></textarea>
+
+        <label for="robot">What is 2 + 2? (robot check)</label>
+        <input type="text" id="robot" name="robot" required pattern="4" title="The answer is 4">
+
+        <button type="submit" class="button">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Reach me at <a href="mailto:Faarhankhan121@gmail.com">Faarhankhan121@gmail.com</a></p>
+      <p>&copy; 2026 Farhan Khan</p>
+    </div>
+  </footer>
+
+</body>
+</html>
