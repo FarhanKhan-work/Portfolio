@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- makes the site fit on phones instead of zooming out -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KHan | Home</title>
+
+  <!-- main styles that every screen uses -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- these only load at certain screen sizes -->
+  <link rel="stylesheet" href="css/phone.css" media="screen and (max-width: 599px)">
+  <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 600px) and (max-width: 1023px)">
+  <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)">
+</head>
+<body>
+
+  <!-- top bar with my name and the menu -->
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">KHan 🍂</a>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- big intro box, the angled gradient is on this one -->
+    <section class="intro">
+      <div class="container">
+        <p class="small-title">Networking + IT Security @ Ontario Tech</p>
+        <h1>Hey, I'm Farhan.</h1>
+        <p>Most people call me KHan. I like setting up networks, locking them down, and figuring out why they stopped working at 2am.</p>
+        <a href="projects.html" class="button">My Projects</a>
+        <a href="contact.html" class="button button-light">Say Hi</a>
+      </div>
+    </section>
+
+    <!-- three boxes about what I do -->
+    <section class="container cards">
+      <h2>What I'm into</h2>
+
+      <article class="card">
+        <h3>🌐 Networking</h3>
+        <p>Routing, switching and VLANs on Cisco gear. Breaking things in the lab so I know how to fix them.</p>
+      </article>
+
+      <article class="card">
+        <h3>🔒 Security</h3>
+        <p>Hardening Linux boxes, reading logs and learning how attackers think.</p>
+      </article>
+
+      <article class="card">
+        <h3>💼 Business</h3>
+        <p>I run two small businesses in Durham Region, so I like tech that actually solves problems.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- bottom of every page -->
+  <footer>
+    <div class="container">
+      <p>Reach me at <a href="mailto:Faarhankhan121@gmail.com">Faarhankhan121@gmail.com</a></p>
+      <p>&copy; 2026 Farhan Khan</p>
+    </div>
+  </footer>
+
+</body>
+</html>
