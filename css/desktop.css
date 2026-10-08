@@ -1,0 +1,63 @@
+.logo {
+  float: left;
+  line-height: 2.5rem;
+}
+
+nav {
+  float: right;
+}
+
+.menu a {
+  padding: 0.5rem 1rem;
+}
+
+.intro {
+  padding: 6rem 0;
+}
+
+.intro h1 {
+  font-size: 3rem;
+}
+
+.cards,
+.projects {
+  font-size: 0;
+}
+
+.cards h2 {
+  font-size: 1.75rem;
+}
+
+.card,
+.project {
+  font-size: 1rem;
+}
+
+.card {
+  width: 31%;
+  margin-right: 3.5%;
+}
+
+.card:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.project {
+  width: 48.5%;
+  margin-right: 3%;
+}
+
+.project:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.my-photo {
+  float: left;
+  width: 300px;
+  margin: 0 2rem 1rem 0;
+}
+
+.contact-form {
+  width: 65%;
+  max-width: 700px;
+}

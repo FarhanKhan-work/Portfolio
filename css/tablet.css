@@ -1,0 +1,43 @@
+.logo {
+  float: left;
+  line-height: 2.5rem;
+}
+
+nav {
+  float: right;
+}
+
+.intro h1 {
+  font-size: 2.2rem;
+}
+
+.cards,
+.projects {
+  font-size: 0;
+}
+
+.cards h2 {
+  font-size: 1.6rem;
+}
+
+.card,
+.project {
+  font-size: 1rem;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.card:nth-of-type(2n),
+.project:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.my-photo {
+  float: left;
+  width: 40%;
+  margin: 0 1.5rem 1rem 0;
+}
+
+.contact-form {
+  width: 85%;
+}
