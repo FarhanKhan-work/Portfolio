@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  background-color: #FBF4E8;
+  color: #3B2418;
+  line-height: 1.6;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #A3470F;
+}
+
+h1,
+h2,
+h3 {
+  color: #8E3417;
+  line-height: 1.25;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #3B2418;
+  padding: 1rem 0;
+}
+
+header .container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  color: #FBF4E8;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: block;
+  color: #FBF4E8;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 20px;
+}
+
+.menu a:hover {
+  background-color: #5A3826;
+}
+
+.menu a.active {
+  background-color: #E0A93B;
+  color: #3B2418;
+}
+
+/* angled gradient */
+.intro {
+  background-image: linear-gradient(135deg, #3B2418, #8E3417);
+  color: #FBF4E8;
+  padding: 4rem 0;
+}
+
+.intro h1 {
+  color: #FBF4E8;
+  font-size: 2.5rem;
+}
+
+.intro p {
+  max-width: 600px;
+  margin: 1rem 0 2rem;
+  font-size: 1.15rem;
+}
+
+.intro .small-title {
+  color: #F6DFB0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: #A3470F;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid #A3470F;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+}
+
+.button:hover {
+  background-color: #3B2418;
+  border-color: #E0A93B;
+}
+
+.button-light {
+  background-color: transparent;
+  border-color: #FBF4E8;
+}
+
+/* plain gradient, top to bottom */
+.banner {
+  background-image: linear-gradient(#8E3417, #3B2418);
+  color: #FBF4E8;
+  padding: 2.5rem 0;
+  margin-bottom: 2rem;
+}
+
+.banner h1 {
+  color: #FBF4E8;
+}
+
+.banner .button {
+  margin-top: 1rem;
+}
+
+.cards {
+  padding: 3rem 0;
+}
+
+.cards h2 {
+  margin-bottom: 1rem;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+  border-top: 5px solid #E0A93B;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about h2 {
+  margin-bottom: 0.75rem;
+}
+
+.about p {
+  margin-bottom: 1rem;
+}
+
+.my-photo {
+  border-radius: 50%;
+  border: 6px solid #E0A93B;
+}
+
+.video-box {
+  padding: 2rem 0 3rem;
+}
+
+.video-box h2 {
+  margin-bottom: 1rem;
+}
+
+.video-box video {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  background-color: #000000;
+}
+
+.projects {
+  padding-bottom: 3rem;
+}
+
+.project {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+  border-left: 6px solid #A3470F;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project h2 {
+  font-size: 1.3rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.85rem;
+  background-color: #F6DFB0;
+  color: #3B2418;
+  padding: 0.1rem 0.7rem;
+  border-radius: 12px;
+  margin: 0.4rem 0 0.6rem;
+}
+
+.contact-form {
+  background-color: #FFFFFF;
+  border-top: 5px solid #E0A93B;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin: 1rem 0 0.3rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid #B89A82;
+  border-radius: 6px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 3px solid #E0A93B;
+  border-color: #A3470F;
+}
+
+.contact-form input:focus:invalid,
+.contact-form textarea:focus:invalid {
+  border: 2px solid #B3261E;
+}
+
+.contact-form .button {
+  margin-top: 1.5rem;
+}
+
+footer {
+  background-color: #3B2418;
+  color: #FBF4E8;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+footer a {
+  color: #E0A93B;
+}
