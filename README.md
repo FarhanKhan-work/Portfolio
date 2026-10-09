@@ -49,9 +49,9 @@ Made with Adobe Color.
 ## Testing
 | Test | Tool | Result |
 |---|---|---|
-| HTML | validator.w3.org | ADD |
-| CSS | jigsaw.w3.org/css-validator | ADD |
-| Accessibility | wave.webaim.org | ADD |
+| HTML | validator.w3.org | 0 errors on all 5 pages (3 minor "section lacks heading" warnings) |
+| CSS | jigsaw.w3.org/css-validator | No errors in all 4 CSS files |
+| Accessibility | wave.webaim.org | 0 errors and 0 contrast errors on all pages, AIM score 10/10 |
 | Links | validator.w3.org/checklink | Checked |
 | Spelling | VS Code Code Spell Checker | Checked |
 
